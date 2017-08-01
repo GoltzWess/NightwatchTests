@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name=".section14.comparisonPage.elementspresent"
+    errors="0" failures="0" hostname="" id="" package="comparisonPage" skipped="0"
+    tests="5" time="20.63" timestamp="Fri, 30 Jun 2017 06:58:59 GMT">
+  
+    <testcase name="Part one: FindCustomer that exists" classname=".section14.comparisonPage.elementspresent" time="8.368" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Part two: Did it navigate to summary" classname=".section14.comparisonPage.elementspresent" time="6.965" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Part Three: Navigate to ComparisonPage" classname=".section14.comparisonPage.elementspresent" time="0.2000" assertions="0">
+    </testcase>
+  
+    <testcase name="Part Four: Did it navigate to ComparisonPage" classname=".section14.comparisonPage.elementspresent" time="3.013" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Part Five: Check elements" classname=".section14.comparisonPage.elementspresent" time="2.082" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

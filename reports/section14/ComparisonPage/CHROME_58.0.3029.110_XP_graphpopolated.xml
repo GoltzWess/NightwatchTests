@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name=".section14.ComparisonPage.graphpopolated"
+    errors="0" failures="0" hostname="" id="" package="ComparisonPage" skipped="0"
+    tests="4" time="17.19" timestamp="Tue, 27 Jun 2017 13:51:03 GMT">
+  
+    <testcase name="Part one: FindCustomer that exists" classname=".section14.ComparisonPage.graphpopolated" time="6.187" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Part two: Did it navigate to summary" classname=".section14.ComparisonPage.graphpopolated" time="3.254" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Part Three: Navigate to ComparisonPage" classname=".section14.ComparisonPage.graphpopolated" time="0.2030" assertions="0">
+    </testcase>
+  
+    <testcase name="Part Four: Did it navigate to ComparisonPage" classname=".section14.ComparisonPage.graphpopolated" time="7.542" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

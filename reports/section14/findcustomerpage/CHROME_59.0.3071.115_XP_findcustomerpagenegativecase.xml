@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name=".section14.findcustomerpage.findcustomerpagenegativecase"
+    errors="0" failures="1" hostname="" id="" package="findcustomerpage" skipped="0"
+    tests="2" time="9.484" timestamp="Fri, 07 Jul 2017 07:20:23 GMT">
+  
+    <testcase name="part one: FindCustomer that exists" classname=".section14.findcustomerpage.findcustomerpagenegativecase" time="6.292" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Part Two: expect errors to show" classname=".section14.findcustomerpage.findcustomerpagenegativecase" time="3.192" assertions="4">
+
+    
+
+    
+
+      <failure message="Expected element &lt;#errordescription&gt; text to contain: &quot;The contract number could not be found on the system, blehf asd&quot;">    at Object.Part Two: expect errors to show (C:\TestProject\tests\section14\findcustomerpage\findcustomerpagenegativecase.js:23:27)
+    at Module.call (C:\TestProject\nightwatch\lib\runner\module.js:62:34)
+    at C:\TestProject\nightwatch\lib\runner\testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

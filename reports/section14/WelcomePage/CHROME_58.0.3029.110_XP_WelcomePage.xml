@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name=".section14.WelcomePage.WelcomePage"
+    errors="0" failures="0" hostname="" id="" package="WelcomePage" skipped="0"
+    tests="1" time="6.185" timestamp="Mon, 26 Jun 2017 12:36:57 GMT">
+  
+    <testcase name="Demo test WelcomePage" classname=".section14.WelcomePage.WelcomePage" time="6.185" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

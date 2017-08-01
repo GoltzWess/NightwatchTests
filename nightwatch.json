@@ -1,0 +1,48 @@
+{
+    "src_folders": [
+        "test"
+    ],
+    "output_folder": "reports",
+    "custom_commands_path": "",
+    "custom_assertions_path": "",
+    "page_objects_path": "",
+    "globals_path": "",
+    "selenium": {
+        "start_process": true,
+        "server_path": "./selenium/selenium.jar",
+        "log_path": "",
+        "port": 4444,
+        "cli_args": {
+            "webdriver.chrome.driver": "./selenium/chromedriver.exe",
+            "webdriver.gecko.driver": "./selenium/geckodriver.exe",
+            "webdriver.edge.driver": ""
+        }
+    },
+    "test_settings": {
+        "default": {
+            "launch_url": "http://localhost",
+            "selenium_port": 4444,
+            "selenium_host": "localhost",
+            "silent": true,
+            "screenshots": {
+                "enabled": true,
+                "on_failure": true,
+                "on_error": true,
+                "path": "./screen-shots/automatic/"
+            },
+            "desiredCapabilities": {
+                "browserName": "chrome",
+                "javascriptEnabled": true,
+                "acceptSslCerts": true,
+                "chromeOptions": {
+                    "args": [
+                        "window-size=1366,768",
+                        "disable-web-security",
+                        "window-position=0,0",
+                        "disable-infobars"
+                    ]
+                }
+            }
+        }
+    }
+}

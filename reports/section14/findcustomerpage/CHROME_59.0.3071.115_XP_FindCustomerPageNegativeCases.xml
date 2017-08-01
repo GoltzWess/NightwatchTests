@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name=".section14.FindCustomerPage.FindCustomerPageNegativeCases"
+    errors="0" failures="0" hostname="" id="" package="FindCustomerPage" skipped="0"
+    tests="2" time="9.306" timestamp="Mon, 17 Jul 2017 10:53:47 GMT">
+  
+    <testcase name="part one: FindCustomer that exists" classname=".section14.FindCustomerPage.FindCustomerPageNegativeCases" time="8.398" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Part Two: expect errors to show" classname=".section14.FindCustomerPage.FindCustomerPageNegativeCases" time="0.9080" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

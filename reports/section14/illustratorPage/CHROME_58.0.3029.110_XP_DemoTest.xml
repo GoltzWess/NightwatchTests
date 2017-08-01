@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="5">
+
+  <testsuite name=".section14.illustratorPage.DemoTest"
+    errors="0" failures="1" hostname="" id="" package="illustratorPage" skipped="3"
+    tests="5" time="20.69" timestamp="Sat, 01 Jul 2017 06:28:46 GMT">
+  
+    <testcase name="Part one: FindCustomer that exists" classname=".section14.illustratorPage.DemoTest" time="8.539" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Part two: Did it navigate to summary" classname=".section14.illustratorPage.DemoTest" time="12.15" assertions="1">  <failure message="Timed out while waiting for element &lt;#clientname&gt; to be present for 10000 milliseconds.">    at Object.Part two: Did it navigate to summary (C:\TestProject\tests\section14\illustratorPage\DemoTest.js:19:18)
+    at Module.call (C:\TestProject\nightwatch\lib\runner\module.js:62:34)
+    at C:\TestProject\nightwatch\lib\runner\testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Part Three: Navigate to ComparisonPage" classname=".section14.illustratorPage.DemoTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Part Four: Did it navigate to ComparisonPage" classname=".section14.illustratorPage.DemoTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Part Five: Button Clicks working" classname=".section14.illustratorPage.DemoTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

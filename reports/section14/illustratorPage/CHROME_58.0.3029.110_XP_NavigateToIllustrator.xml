@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="5">
+
+  <testsuite name=".section14.IllustratorPage.navigateToIllustrator"
+    errors="2" failures="1" hostname="" id="" package="IllustratorPage" skipped="4"
+    tests="5" time="6.514" timestamp="Wed, 05 Jul 2017 11:37:14 GMT">
+  
+    <testcase name="Part one: FindCustomer that exists" classname=".section14.IllustratorPage.navigateToIllustrator" time="6.514" assertions="2">
+<system-out>[[ATTACHMENT|C:\TestProject\screen-shots\automatic\section14\IllustratorPage\navigateToIllustrator\Part-one:-FindCustomer-that-exists_ERROR_Jul-05-2017-133718-GMT+0200-(South-Africa-Standard.png]]</system-out>
+      <failure message="Testing if value of &lt;#identificationInput&gt; equals: &quot;0010116452&quot;. Element or attribute could not be located.">    at Object.Part one: FindCustomer that exists (C:\TestProject\tests\section14\IllustratorPage\navigateToIllustrator.js:11:25)
+    at Module.call (C:\TestProject\nightwatch\lib\runner\module.js:62:34)
+    at C:\TestProject\nightwatch\lib\runner\testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+<system-out>[[ATTACHMENT|C:\TestProject\screen-shots\automatic\section14\IllustratorPage\navigateToIllustrator\Part-one:-FindCustomer-that-exists_ERROR_Jul-05-2017-133720-GMT+0200-(South-Africa-Standard.png]]</system-out>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;#identificationInput&quot; using: css selector
+    at Object.Part one: FindCustomer that exists (C:\TestProject\tests\section14\IllustratorPage\navigateToIllustrator.js:9:18)
+    at Module.call (C:\TestProject\nightwatch\lib\runner\module.js:62:34)
+    at C:\TestProject\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\TestProject\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\TestProject\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\TestProject\nightwatch\node_modules\q\q.js:796:13)
+    at C:\TestProject\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\TestProject\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\TestProject\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#identificationInput&quot; using: css selector
+    at command (C:\TestProject\nightwatch\lib\api\assertions\value.js:47:21)
+    at module.exports.BaseAssertion._scheduleAssertion (C:\TestProject\nightwatch\lib\core\assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (C:\TestProject\nightwatch\lib\core\assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (C:\TestProject\nightwatch\lib\core\assertion.js:180:21)
+    at AsyncTree.runCommand (C:\TestProject\nightwatch\lib\core\queue.js:154:30)
+    at AsyncTree.runChildNode (C:\TestProject\nightwatch\lib\core\queue.js:114:8)
+    at AsyncTree.walkDown (C:\TestProject\nightwatch\lib\core\queue.js:80:10)
+    at AsyncTree.walkUp (C:\TestProject\nightwatch\lib\core\queue.js:97:8)
+    at AsyncTree.walkDown (C:\TestProject\nightwatch\lib\core\queue.js:90:12)
+    at AsyncTree.traverse (C:\TestProject\nightwatch\lib\core\queue.js:73:8)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Part two: Did it navigate to summary" classname=".section14.IllustratorPage.navigateToIllustrator">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Part Three: Navigate to ComparisonPage" classname=".section14.IllustratorPage.navigateToIllustrator">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Part Four: Did it navigate to ComparisonPage" classname=".section14.IllustratorPage.navigateToIllustrator">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Part Five: Navigate To IllustratorPage" classname=".section14.IllustratorPage.navigateToIllustrator">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

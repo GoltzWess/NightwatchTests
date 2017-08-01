@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name=".section14.findcustomerpage.inputcontractnumber"
+    errors="0" failures="1" hostname="" id="" package="findcustomerpage" skipped="0"
+    tests="3" time="22.80" timestamp="Tue, 27 Jun 2017 05:56:24 GMT">
+  
+    <testcase name="part one: FindCustomer that exists" classname=".section14.findcustomerpage.inputcontractnumber" time="10.25" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Part two: Did it navigate to the next page" classname=".section14.findcustomerpage.inputcontractnumber" time="0.3970" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Part Three: Check if elements are present" classname=".section14.findcustomerpage.inputcontractnumber" time="12.16" assertions="1">  <failure message="Timed out while waiting for element &lt;#clientname&gt; to be present for 10000 milliseconds.">    at Object.Part Three: Check if elements are present (C:\TestProject\tests\section14\findcustomerpage\inputcontractnumber.js:23:18)
+    at Module.call (C:\TestProject\nightwatch\lib\runner\module.js:62:34)
+    at C:\TestProject\nightwatch\lib\runner\testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

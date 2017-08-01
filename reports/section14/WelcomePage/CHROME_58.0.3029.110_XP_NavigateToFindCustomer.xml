@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name=".section14.WelcomePage.NavigateToFindCustomer"
+    errors="0" failures="0" hostname="" id="" package="WelcomePage" skipped="0"
+    tests="2" time="5.748" timestamp="Mon, 26 Jun 2017 13:22:02 GMT">
+  
+    <testcase name="part one: Navigate to FindCustomer page" classname=".section14.WelcomePage.NavigateToFindCustomer" time="5.431" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Part Two: Land on FindCustomer page" classname=".section14.WelcomePage.NavigateToFindCustomer" time="0.3170" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

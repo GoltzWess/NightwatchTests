@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name=".section14.AboutPage.NavigateToAboutPage"
+    errors="0" failures="1" hostname="" id="" package="AboutPage" skipped="0"
+    tests="1" time="10.89" timestamp="Tue, 27 Jun 2017 16:26:11 GMT">
+  
+    <testcase name="About page" classname=".section14.AboutPage.NavigateToAboutPage" time="10.89" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;#headerWrapper&gt; to be present for 1000 milliseconds.">    at Object.About page (C:\TestProject\tests\section14\AboutPage\NavigateToAboutPage.js:9:18)
+    at Module.call (C:\TestProject\nightwatch\lib\runner\module.js:62:34)
+    at C:\TestProject\nightwatch\lib\runner\testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

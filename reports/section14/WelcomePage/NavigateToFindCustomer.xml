@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name=".section14.WelcomePage.NavigateToFindCustomer"
+    errors="1" failures="0" hostname="" id="" package="WelcomePage" skipped="0"
+    tests="1" time="0.01200" timestamp="Mon, 26 Jun 2017 12:51:49 GMT">
+  
+    <testcase name="part one: Navigate to FindCustomer page" classname=".section14.WelcomePage.NavigateToFindCustomer" time="0.01200" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [ / Section14\ Welcome Page\ Navigate To Find Customer / part one: Navigate to FindCustomer page]:
+
+  TypeError: client.url(...).waitForElementVisible(...).pause(...).click(...).verify.Visible is not a function
+    at Object.part one: Navigate to FindCustomer page (C:\TestProject\tests\section14\WelcomePage\NavigateToFindCustomer.js:10:17)
+    at Module.call (C:\TestProject\nightwatch\lib\runner\module.js:62:34)
+    at C:\TestProject\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\TestProject\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\TestProject\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\TestProject\nightwatch\node_modules\q\q.js:796:13)
+    at C:\TestProject\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\TestProject\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\TestProject\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

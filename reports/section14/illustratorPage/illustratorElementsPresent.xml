@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="5">
+
+  <testsuite name=".section14.illustratorPage.illustratorElementsPresent"
+    errors="1" failures="0" hostname="" id="" package="illustratorPage" skipped="4"
+    tests="5" time="0.01400" timestamp="Fri, 30 Jun 2017 05:30:02 GMT">
+  
+    <testcase name="Part one: FindCustomer that exists" classname=".section14.illustratorPage.illustratorElementsPresent" time="0.01400" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [ / Section14\illustrator Page\illustrator Elements Present / Part one: FindCustomer that exists]:
+
+  ReferenceError: click is not defined
+    at Object.Part one: FindCustomer that exists (C:\TestProject\tests\section14\illustratorPage\illustratorElementsPresent.js:12:17)
+    at Module.call (C:\TestProject\nightwatch\lib\runner\module.js:62:34)
+    at C:\TestProject\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\TestProject\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\TestProject\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\TestProject\nightwatch\node_modules\q\q.js:796:13)
+    at C:\TestProject\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\TestProject\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\TestProject\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Part two: Did it navigate to summary" classname=".section14.illustratorPage.illustratorElementsPresent">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Part Three: Navigate to ComparisonPage" classname=".section14.illustratorPage.illustratorElementsPresent">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Part Four: Did it navigate to ComparisonPage" classname=".section14.illustratorPage.illustratorElementsPresent">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Part Five: Navigate To IllustratorPage" classname=".section14.illustratorPage.illustratorElementsPresent">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

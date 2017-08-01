@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="5">
+
+  <testsuite name=".section14.comparisonPage.ComparisonPageButtonClicks"
+    errors="0" failures="1" hostname="" id="" package="comparisonPage" skipped="0"
+    tests="5" time="29.06" timestamp="Mon, 03 Jul 2017 11:46:48 GMT">
+  
+    <testcase name="Part one: FindCustomer that exists" classname=".section14.comparisonPage.ComparisonPageButtonClicks" time="5.901" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Part two: Did it navigate to summary" classname=".section14.comparisonPage.ComparisonPageButtonClicks" time="2.378" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Part Three: Navigate to ComparisonPage" classname=".section14.comparisonPage.ComparisonPageButtonClicks" time="0.1890" assertions="0">
+    </testcase>
+  
+    <testcase name="Part Four: Did it navigate to ComparisonPage" classname=".section14.comparisonPage.ComparisonPageButtonClicks" time="5.115" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Part Five: Button Clicks working" classname=".section14.comparisonPage.ComparisonPageButtonClicks" time="15.47" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;#currentMonthlyContribution&gt; to be present for 7000 milliseconds.">    at Object.Part Five: Button Clicks working (C:\TestProject\tests\section14\comparisonPage\ComparisonPageButtonClicks.js:63:18)
+    at Module.call (C:\TestProject\nightwatch\lib\runner\module.js:62:34)
+    at C:\TestProject\nightwatch\lib\runner\testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

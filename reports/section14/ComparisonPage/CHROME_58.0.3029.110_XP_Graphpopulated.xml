@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="4">
+
+  <testsuite name=".section14.comparisonpage.Graphpopulated"
+    errors="0" failures="1" hostname="" id="" package="comparisonpage" skipped="2"
+    tests="4" time="15.64" timestamp="Tue, 27 Jun 2017 17:01:42 GMT">
+  
+    <testcase name="Part one: FindCustomer that exists" classname=".section14.comparisonpage.Graphpopulated" time="6.935" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Part two: Did it navigate to summary" classname=".section14.comparisonpage.Graphpopulated" time="8.709" assertions="1">  <failure message="Timed out while waiting for element &lt;#clientname&gt; to be present for 7000 milliseconds.">    at Object.Part two: Did it navigate to summary (C:\TestProject\tests\section14\comparisonpage\Graphpopulated.js:19:18)
+    at Module.call (C:\TestProject\nightwatch\lib\runner\module.js:62:34)
+    at C:\TestProject\nightwatch\lib\runner\testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Part Three: Navigate to ComparisonPage" classname=".section14.comparisonpage.Graphpopulated">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Part Four: Did it navigate to ComparisonPage" classname=".section14.comparisonpage.Graphpopulated">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

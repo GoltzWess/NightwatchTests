@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="6">
+
+  <testsuite name=".section14.IllustratorPage.IllustratorButtonClicks"
+    errors="1" failures="1" hostname="" id="" package="IllustratorPage" skipped="0"
+    tests="6" time="19.39" timestamp="Mon, 17 Jul 2017 12:17:55 GMT">
+  
+    <testcase name="Part one: FindCustomer that exists" classname=".section14.IllustratorPage.IllustratorButtonClicks" time="6.716" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Part two: Did it navigate to summary" classname=".section14.IllustratorPage.IllustratorButtonClicks" time="1.147" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Part Three: Navigate to ComparisonPage" classname=".section14.IllustratorPage.IllustratorButtonClicks" time="0.1540" assertions="0">
+    </testcase>
+  
+    <testcase name="Part Four: Did it navigate to ComparisonPage" classname=".section14.IllustratorPage.IllustratorButtonClicks" time="2.226" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Part Five: Navigate To IllustratorPage" classname=".section14.IllustratorPage.IllustratorButtonClicks" time="0.4230" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Part Six: Illustrator Radio Button clicks " classname=".section14.IllustratorPage.IllustratorButtonClicks" time="8.729" assertions="3">
+
+    
+
+      <failure message="Failed [strictEqual]: (-1 === 0)">    at Object.strictEqual (C:\TestProject\nightwatch\lib\core\api.js:67:24)
+    at Object.&lt;anonymous&gt; (C:\TestProject\tests\section14\IllustratorPage\IllustratorButtonClicks.js:64:33)
+    at Object.&lt;anonymous&gt; (C:\TestProject\nightwatch\lib\api\element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (C:\TestProject\nightwatch\lib\index.js:366:18)
+    at HttpRequest.&lt;anonymous&gt; (C:\TestProject\nightwatch\lib\index.js:393:15)
+    at IncomingMessage.&lt;anonymous&gt; (C:\TestProject\nightwatch\lib\http\request.js:168:16)</failure>
+<system-out>[[ATTACHMENT|C:\TestProject\screen-shots\automatic\section14\IllustratorPage\IllustratorButtonClicks\Part-Six:-Illustrator-Radio-Button-clicks-_ERROR_Jul-17-2017-141814-GMT+0200-(South-Africa-Standard.png]]</system-out>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;#moderate&quot; using: css selector
+    at Object.&lt;anonymous&gt; (C:\TestProject\tests\section14\IllustratorPage\IllustratorButtonClicks.js:62:24)
+    at Object.&lt;anonymous&gt; (C:\TestProject\nightwatch\lib\api\element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (C:\TestProject\nightwatch\lib\index.js:366:18)
+    at emitTwo (events.js:106:13)
+    at HttpRequest.emit (events.js:191:7)
+    at HttpRequest.&lt;anonymous&gt; (C:\TestProject\nightwatch\lib\index.js:382:15)
+    at emitThree (events.js:116:13)
+    at HttpRequest.emit (events.js:194:7)
+    at IncomingMessage.&lt;anonymous&gt; (C:\TestProject\nightwatch\lib\http\request.js:166:16)
+    at emitNone (events.js:91:20)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

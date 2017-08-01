@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="6">
+
+  <testsuite name=".section14.illustratorPage.illustratorPageNegativeCases"
+    errors="1" failures="0" hostname="" id="" package="illustratorPage" skipped="0"
+    tests="6" time="14.03" timestamp="Tue, 11 Jul 2017 10:33:54 GMT">
+  
+    <testcase name="Part one: FindCustomer that exists" classname=".section14.illustratorPage.illustratorPageNegativeCases" time="10.85" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Part two: Did it navigate to summary" classname=".section14.illustratorPage.illustratorPageNegativeCases" time="0.5800" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Part Three: Navigate to ComparisonPage" classname=".section14.illustratorPage.illustratorPageNegativeCases" time="0.1580" assertions="0">
+    </testcase>
+  
+    <testcase name="Part Four: Did it navigate to ComparisonPage" classname=".section14.illustratorPage.illustratorPageNegativeCases" time="2.149" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Part Five: Navigate To IllustratorPage" classname=".section14.illustratorPage.illustratorPageNegativeCases" time="0.2770" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Part Six: Negative Cases" classname=".section14.illustratorPage.illustratorPageNegativeCases" time="0.01800" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [ / Section14\illustrator Page\illustrator Page Negative Cases / Part Six: Negative Cases]:
+
+  TypeError: Cannot read property 'to' of undefined
+    at Object.Part Six: Negative Cases (C:\TestProject\tests\section14\illustratorPage\illustratorPageNegativeCases.js:57:37)
+    at Module.call (C:\TestProject\nightwatch\lib\runner\module.js:62:34)
+    at C:\TestProject\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\TestProject\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\TestProject\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\TestProject\nightwatch\node_modules\q\q.js:796:13)
+    at C:\TestProject\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\TestProject\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\TestProject\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

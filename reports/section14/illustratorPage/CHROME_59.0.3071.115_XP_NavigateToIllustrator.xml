@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name=".section14.IllustratorPage.NavigateToIllustrator"
+    errors="0" failures="0" hostname="" id="" package="IllustratorPage" skipped="0"
+    tests="5" time="15.81" timestamp="Tue, 11 Jul 2017 07:18:01 GMT">
+  
+    <testcase name="Part one: FindCustomer that exists" classname=".section14.IllustratorPage.NavigateToIllustrator" time="4.916" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Part two: Did it navigate to summary" classname=".section14.IllustratorPage.NavigateToIllustrator" time="3.735" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Part Three: Navigate to ComparisonPage" classname=".section14.IllustratorPage.NavigateToIllustrator" time="0.1560" assertions="0">
+    </testcase>
+  
+    <testcase name="Part Four: Did it navigate to ComparisonPage" classname=".section14.IllustratorPage.NavigateToIllustrator" time="5.402" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Part Five: Navigate To IllustratorPage" classname=".section14.IllustratorPage.NavigateToIllustrator" time="1.597" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;#moderate&quot; using: css selector
+    at Object.&lt;anonymous&gt; (C:\TestProject\tests\section14\IllustratorPage\IllustratorButtonClicks.js:62:24)
+    at Object.&lt;anonymous&gt; (C:\TestProject\nightwatch\lib\api\element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (C:\TestProject\nightwatch\lib\index.js:366:18)
+    at emitTwo (events.js:106:13)
+    at HttpRequest.emit (events.js:191:7)
+    at HttpRequest.&lt;anonymous&gt; (C:\TestProject\nightwatch\lib\index.js:382:15)
+    at emitThree (events.js:116:13)
+    at HttpRequest.emit (events.js:194:7)
+    at IncomingMessage.&lt;anonymous&gt; (C:\TestProject\nightwatch\lib\http\request.js:166:16)
+    at emitNone (events.js:91:20)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
